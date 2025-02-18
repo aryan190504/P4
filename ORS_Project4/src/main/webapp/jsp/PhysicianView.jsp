@@ -101,7 +101,7 @@
 					<th align="left">BirthDate<span style="color: red">*</span> :
 					</th>
 					<td><input type="text" name="birthDate"
-						placeholder="Enter BirthDate" size="26" id="udatee"
+						placeholder="Enter BirthDate" size="26" id="udatee" readonly="readonly"
 						oninput=" handleDoubleInput(this, 'purchasePriceError', 8)"
 						value="<%=(DataUtility.getDateString(bean.getBirthDate()))%>"></td>
 					<td style="position:fixed"><font color="red"
